@@ -1,14 +1,15 @@
 <!DOCTYPE html>
-<html>
+<html lang="ru">
 <head>
-    <title>Form</title>
+    <title>Задание №4</title>
     <meta charset="UTF-8">
     <meta name="veiwport" content="width=device-width,initial-scale=1.0">
-    <meta http-equiv="refresh" content="15">
 </head>
 <body>
-    <h3>Форма</h3>
-        <form action="ADD.PHP">
+    <header><h3>Форма добавления студента:</h3></header>
+    <main>
+        <hr>
+        <form action="#">
             <label for="first_name"> Имя:</label>
             <input type="text" id="first_name" name="first_name" placeholder="John">
             <br><br>
@@ -18,10 +19,13 @@
             <label for="variant"> Вариант:</label>
             <input type="number" id="variant" name="variant" placeholder="1">
             <br><br>
-
-            <input type="submit"> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-            <input type="reset"> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-        </form> <br>
-        <a href="index.html"> <button> Вернуться на основной сайт </button></a> <hr>
+            <input type="submit" value="Отправить форму"> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+            <input type="reset" value="Очистить форму"> 
+        </form>
+        <hr>
+    </main>
+    <footer>
+        <button><a href="index.html">  Вернуться на основной сайт </a> </button>
+    </footer>
 </body>
 </html>
